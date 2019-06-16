@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tamara Shevon</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="Tamara Shevon, Tamara Shevon Comedy, Tamara, Shevon, Comedian, Comic, Toronto, Toronto Comedian, Toronto Comedy Show">
+	<meta name="description" content="Toronto Comedian">
+	<meta name="author" content="Tamara Shevon">
+	<link rel="icon" href="assets/icons/mic.png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700i|Permanent+Marker|Ubuntu" rel="stylesheet">
+	<link rel="stylesheet" href="styles/animated.css">
+	<link rel="stylesheet" href="styles/style.css"/>
+</head>
+<body>
+	<!-- Home Page Top Menu -->
+	<div class="topMenu wrapper clearfix">
+		<div class="menuName animated pulse">
+			<a href="index.html">Tamara Shevon</a>
+		</div>
+		<nav class="navtop">
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+				<li>
+					<a href="shows.html">Shows</a>
+				</li>
+				<li>
+					<a href="news.html">News</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</div>	
+	<!-- Home Main Title -->
+	<header class="hero">
+		<div class="main wrapper">
+			<img src="assets/square-home.jpg" alt="A headshot of Tamara Shevon, the comedian.">
+			<h1 class="pageTitle">Tamara Shevon Comedy</h1>
+			<h3 class="tagline">A home page is not a home</h3>
+		</div>
+	</header>
+	<!-- Home Section 1 -->
+	<section class="homeOne wrapper clearfix">
+		<!-- Home Section 1 Left - Condensed About & Newsletter Signup -->
+		<div class="homeOneLeft">
+			<div class="bioCondensed">
+				<h3 class="title">A Little Bit About Me</h3>
+				<p>Tamara Shevon is regular at the Corner Comedy Club and the host of the Against the Collar Comedy Show. She has been a purse wine enthusiast since 2006 and can recite every word of the movie 'She's All That' - which she considers a suspense film.</p>
+				<div class="learn">
+					<a href="about.html" class="btn">Learn More</a>
+				</div>
+			</div>
+			<div class="newsletter homeNews">
+				<h3 class="title">Stay In The Loop</h3>
+				<form action="https://formspree.io/tamarashevon@gmail.com" method="POST" name="contactUsForm" autocomplete="on">
+					<label class="visuallyhidden" for="name">Name</label>
+					<input type="name" id='name' placeholder="Name*" required="true">
+
+					<label class="visuallyhidden" for="email">Email</label>
+					<input type="email" id="email" placeholder="E-mail*" required="true">
+
+					<button class="btn">Sign Me Up!</button>
+				</form>
+			</div>
+		</div>
+		<!-- Home Section 1 Right - Recent Tweets -->
+		<div class="homeOneRight">
+			<div class="twitterWidget">
+				<a class="twitter-timeline" data-lang="en" data-width="475" data-height="500" data-theme="light" data-link-color="#981CEB" href="https://twitter.com/Teemair?ref_src=twsrc%5Etfw">Tweets by Teemair</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+			<div class="follow">
+				<a href="https://twitter.com/teemair?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-lang="en" data-show-count="false">Follow @teemair</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+		</div>
+	</section>
+	<!-- Footer -->
+	<footer>
+		<div class="footerFlex wrapper">
+			<div class="footerBookings">
+				<div class="bookingTitle">
+					<h2>Bookings:</h2>
+				</div>
+				<div class="bookingEmail">
+					<p><a href="mailto:tamarashevon@gmail.com">tamarashevon@gmail.com</a></p>
+				</div>
+			</div>
+			<nav class="footerSocial">
+				<ul>
+					<li>
+						<a href="https://twitter.com/Teemair" target="_blank"><i class="fab fa-twitter"></i></a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/soscomedyto" target="_blank"><i class="fab fa-facebook-f"></i></a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/teemair" target="_blank"><i class="fab fa-instagram"></i></a>
+					</li>
+					<li>
+						<a href="https://www.youtube.com/channel/UCir_m1BtbnYRXSuIX5HoyFg" target="_blank"><i class="fab fa-youtube"></i></a>
+					</li>
+					<li>
+						<a href="https://www.reddit.com/user/tamarashevon" target="_blank"><i class="fab fa-reddit"></i></a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="copyright wrapper">
+			<p>©2018 TamaraShevonComedy.com</p>
+		</div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script>
+		$(function() {
+			$('.animated.pulse').hover(function(e){
+				$(this).addClass('animated pulse');
+			},	function(e){
+				$(this).removeClass('animated pulse');
+			});
+
+		});
+	</script>
+</body>
+</html>
