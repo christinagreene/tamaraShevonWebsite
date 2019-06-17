@@ -941,6 +941,11 @@ footer {
 		top: 100px;
 	}
 
+	.main img {
+		max-width: 50%;
+		margin-top: 5%;
+	}
+
 	.pageTitle {
 		font-size: 4.0rem;
 	}
