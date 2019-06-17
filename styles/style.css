@@ -125,7 +125,6 @@ body {
 
 /*Home Section 1 - About Intro, Newsletter, Tweets*/
 .homeOne {
-	/*margin-top: 30px;*/
 	margin-bottom: 50px;
 }
 
@@ -722,8 +721,6 @@ footer {
 	.homeOneRight {
 		height: 600px;
 	}
-
-	/*ABOUT - NO CHANGES*/
 	
 	/*SHOWS*/
 	.upcoming {
@@ -769,8 +766,6 @@ footer {
 	.ig {
 		width: calc(50% - 20px);
 	}
-
-	/*CONTACT - NO CHANGE*/
 }
 
 /* Landscape phone to portrait tablet */
@@ -943,11 +938,11 @@ footer {
 
 	.main img {
 		max-width: 50%;
-		margin-top: 5%;
+		margin-top: 10%;
 	}
 
 	.pageTitle {
-		font-size: 4.0rem;
+		font-size: 3.5rem;
 	}
 
 	.tagline {
@@ -1024,8 +1019,5 @@ footer {
 	.ig {
 		width: 100%;
 	}
-
-	/*CONTACT - NO CHANGE*/
-
 }
 
